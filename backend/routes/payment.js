@@ -4,6 +4,7 @@ const Razorpay = require("razorpay");
 const crypto = require("crypto");
 
 // 🧾 Dummy tour data (later DB se aayega)
+//payment is being done by razorpay
 const tours = [
   { id: 1, price: 27000 },
   { id: 2, price: 15000 },
