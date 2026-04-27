@@ -4,6 +4,9 @@ const test = () => {
   return (
     <div>
       This is testing page
+      This is testing page
+      This is testing page
+      This is testing page
     </div>
   )
 }
