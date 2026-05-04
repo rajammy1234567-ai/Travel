@@ -22,7 +22,7 @@ class PaymentController {
     } catch (error) {
       console.error('[PAYMENT ERROR FULL]', error);
 console.error('[PAYMENT ERROR MESSAGE]', error?.message);
-console.error('[PAYMENT ERROR STACK]', error?.stack);
+console.error('[PAYMENT ERROR STACK]', error?.stack); 
       res.status(500).json({
         error: error.message
       });
