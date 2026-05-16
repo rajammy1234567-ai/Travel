@@ -1,4 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Tour from "./pages/Tour";
@@ -9,8 +14,12 @@ import About from "./pages/About";
 import TourDetails from "./pages/TourDetails";
 import Payment from "./pages/Payment"
 import Success from "./pages/Success";
+<<<<<<< HEAD
 import BookingFormPage from "./pages/BookingForm"
 import { BookingForm } from "./components/BookingForm";
+=======
+import BookingForm from "./pages/BookingForm"
+>>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
 
 function App() {
   return (
@@ -30,7 +39,16 @@ function App() {
         <Route path="/payment" element={<Payment />} />
       </Routes>
     </BrowserRouter>
+<<<<<<< HEAD
   );
 }
 
 export default App;
+=======
+
+    // <Payment/>
+  );
+}
+
+export default App;
+>>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3

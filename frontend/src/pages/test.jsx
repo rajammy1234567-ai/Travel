@@ -1,0 +1,14 @@
+import React from 'react'
+
+const test = () => {
+  return (
+    <div>
+      This is testing page
+      This is testing page
+      This is testing page
+      This is testing page
+    </div>
+  )
+}
+
+export default test

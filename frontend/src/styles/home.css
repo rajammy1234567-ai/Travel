@@ -215,6 +215,7 @@
 
 .home-btn{
   text-decoration: none;
+<<<<<<< HEAD
 }
 
 /* ================= POLITICAL HERO ================= */
@@ -462,4 +463,6 @@
   .event-card img {
     height: 340px;
   }
+=======
+>>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
 }
