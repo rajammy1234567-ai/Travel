@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styles/navbar.css";
 import { NavLink } from "react-router-dom";
-<<<<<<< HEAD
 import {
   FaTwitter,
   FaInstagram,
@@ -18,19 +17,6 @@ export default function Navbar() {
 
   const [user, setUser] = useState(null);
 
-=======
-import { FaTwitter, FaInstagram, FaFacebook , FaYoutube, FaUser} from "react-icons/fa";
-import Notification from "./Notification";
-
-export default function Navbar() {
- const [scrolled, setScrolled] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
-
-
-  const [user, setUser] = useState(null);
-
-
->>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 40);
@@ -55,10 +41,6 @@ export default function Navbar() {
   return (
     <div className="fl-nav-wrapper">
       <nav className="fl-navbar">
-<<<<<<< HEAD
-=======
-
->>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
         {/* LOGO */}
         <div className="fl-logo">
           <NavLink to="/" className="fl-logo-icon">
@@ -66,16 +48,8 @@ export default function Navbar() {
           </NavLink>
         </div>
 
-<<<<<<< HEAD
         {/* LINKS + SOCIAL (GROUPED FOR MOBILE) */}
         <div className={`fl-menu ${menuOpen ? "active" : ""}`}>
-=======
-        
-
-        {/* LINKS + SOCIAL (GROUPED FOR MOBILE) */}
-        <div className={`fl-menu ${menuOpen ? "active" : ""}`}>
-
->>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
           <div className="fl-nav-links">
             <NavLink to="/about">About Us</NavLink>
             <NavLink to="/tour">Tours</NavLink>
@@ -84,11 +58,6 @@ export default function Navbar() {
             <NavLink to="/contact">Contact</NavLink>
           </div>
 
-<<<<<<< HEAD
-=======
-        
-
->>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
           <div className="fl-social-icons">
             <a href="https://twitter.com" target="_blank" rel="noreferrer">
               <FaTwitter />
@@ -102,7 +71,6 @@ export default function Navbar() {
             <a href="https://youtube.com" target="_blank" rel="noreferrer">
               <FaYoutube />
             </a>
-<<<<<<< HEAD
           </div>
 
           <div className="fl-download">
@@ -110,22 +78,12 @@ export default function Navbar() {
               <FaDownload /> Download App
             </a>
           </div>
-=======
-
-          
-          </div>
-
->>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
 
           <div className="fl-auth">
             {user ? (
               <>
                 <span className="user-name">
-<<<<<<< HEAD
                   <FaUser />
-=======
-                  <FaUser/>
->>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
                 </span>
 
                 <button className="logout-btn" onClick={handleLogout}>
@@ -138,10 +96,6 @@ export default function Navbar() {
               </NavLink>
             )}
           </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
         </div>
 
         {/* HAMBURGER */}
@@ -150,16 +104,8 @@ export default function Navbar() {
           <span></span>
           <span></span>
         </div>
-<<<<<<< HEAD
         <Notification />
       </nav>
     </div>
   );
 }
-=======
-<Notification/>
-      </nav>
-    </div>
-  );
-}
->>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3

@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-<<<<<<< HEAD
+
 const PaymentController = require("../controller/paymentController");
 
 // Routes
@@ -9,7 +9,7 @@ router.post("/verify", PaymentController.verifyPayment);
 router.get("/booking/:bookingId", PaymentController.getBooking);
 
 module.exports = router;
-=======
+
 const Razorpay = require("razorpay");
 const crypto = require("crypto");
 
@@ -102,4 +102,4 @@ router.post("/verify", (req, res) => {
 });
 
 module.exports = router;
->>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
+

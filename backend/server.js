@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
@@ -48,7 +48,7 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
-=======
+
 const express = require('express');
 const cors = require('cors');
 const connectDB = require('../backend/config/db');
@@ -71,4 +71,4 @@ const PORT = 3000
 app.listen((PORT) , () =>{
   console.log(`Server is running on the port ${PORT}`)
 })
->>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
+

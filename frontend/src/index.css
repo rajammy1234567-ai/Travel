@@ -1,11 +1,10 @@
-<<<<<<< HEAD
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import "tailwindcss";
 
-=======
->>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
+
 /* RESET */
 * {
   margin: 0;
@@ -43,8 +42,4 @@ body::before {
   opacity: 0.15;
   filter: blur(120px);
   z-index: -1;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 4e543208f3d0fcdb4b3727441effd09857affbf3
